@@ -49,6 +49,9 @@ div.grid3 {
 
 div.grid4 {
 	background-color: yellow;
+	animation-name: ani_grid3;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 /* CSS transform standard syntax */
@@ -64,6 +67,10 @@ div.grid4 {
 	60% {background-color: red;}
 	80% {background-color: blue;}
 	100% {background-color: green;}
+}
+@keyframes ani_grid3 {
+    from { top: 0%; }
+    to { top: 80%; }
 }
 
 .fas {

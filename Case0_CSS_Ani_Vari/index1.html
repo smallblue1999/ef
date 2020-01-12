@@ -45,7 +45,10 @@ div.grid2 {
 
 div.grid3 {
 	background-color: blue;
-}
+	animation-name: ani_grid3;
+	animation-duration: 0.1s;
+	animation-iteration-count: infinite;
+	}
 
 div.grid4 {
 	background-color: yellow;
@@ -65,7 +68,16 @@ div.grid4 {
 	80% {background-color: blue;}
 	100% {background-color: green;}
 }
-
+@keyframes ani_grid3 {
+  from {transform: rotate(0deg);}
+    to {transform: rotate(3600deg);}
+	0% {background-color: #FF1212;}
+	20% {background-color: #FFD382;}
+	40% {background-color: #FFFF26;}
+	60% {background-color: #63FF63;}
+	80% {background-color: #008080;}
+	100% {background-color: #A3A3ff;}
+}
 .fas {
 	animation-name: heartbeat;
     animation-duration: var(--heartbeat);
