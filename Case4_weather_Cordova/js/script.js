@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(".btn_city_select").click(function(){
 		var city_select = $(this).text();
 		getTaiwanWeather(city_select);
-        $(".collapse").collapse("hide");  // hide collapse 收起
+        $(".collapse").collapse("hide");  // hide collapse 收起 
     });
 	
 	function getTaiwanWeather(city_name) {
