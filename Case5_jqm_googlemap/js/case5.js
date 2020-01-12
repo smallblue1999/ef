@@ -6,7 +6,7 @@ $(document).on("pagecreate","#pageF1",function() {
 
     // var url = "http://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AV&CaseNo2=1&FileType=1&Lang=C&FolderType=";
     console.log("pagecreate Event 只會被觸發一次！");
-    var url = "case5.json";
+    var url = "case5.json"; 
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
