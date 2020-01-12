@@ -25,7 +25,7 @@ $(document).ready(function() {
 			var time_1 = arr.records.location[0].weatherElement[0].time[0].startTime.substr(5,8).replace("-","/") + "時";
 			var time_2 = arr.records.location[0].weatherElement[0].time[1].startTime.substr(5,8).replace("-","/") + "時";
 			var time_3 = arr.records.location[0].weatherElement[0].time[2].startTime.substr(5,8).replace("-","/") + "時";
-			//主時間 Day 2, 3, 4 時間資料 #date, #day2, day3, day4
+			//主時間 Day 2, 3, 4 時間資料 #date, #day2, day3, day4 
 			$("#city").text(city_name);
 			$("#date").text(time_1.substr(0,5));
 			$("#day2").text(time_1);
@@ -53,7 +53,7 @@ $(document).ready(function() {
 			//舒適度 #feels-like
 			var fl_1 = arr.records.location[0].weatherElement[3].time[0].parameter.parameterName;
 			$("#feels-like").text(fl_1);
-			
+			//
 			//溫度 #temp #day2-high-low, day3-high-low, day4-high-low
 			var minT_1 = arr.records.location[0].weatherElement[2].time[0].parameter.parameterName;
 			var minT_2 = arr.records.location[0].weatherElement[2].time[1].parameter.parameterName;

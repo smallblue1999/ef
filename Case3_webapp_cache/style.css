@@ -19,7 +19,7 @@ body {
 #main-container {
   background-color: #F2F3F4;
   width: 90%;
-  max-width: 400px;
+  max-width: 700px;
   margin-top: 20px;
   margin-bottom: 10px;
   border: 3px solid #A9DD9B;
@@ -31,7 +31,7 @@ body {
   font-size: 30px;
 }
 #current-weather {
-  max-width: 300px;
+  max-width: 500px;
 }
 .valign {
   display: inline-block;
@@ -107,7 +107,7 @@ footer a {
   color: #A9DD9B;
 }
 #attribution-panel {
-  max-width: 350px;
+  max-width: 150px;
 }
 #panel-heading {
   background-color: #f5f6f7;
